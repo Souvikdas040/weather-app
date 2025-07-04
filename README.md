@@ -1,54 +1,96 @@
-# React + TypeScript + Vite
+# 🌤️ Weather Forecast Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, responsive, and real-time weather forecasting web application built using **React**, **TypeScript**, **TailwindCSS**, and **Lucide Icons**. It displays current weather conditions and a 7-day forecast with modern UI and icons. Optimized for both **light** and **dark mode**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Demo
 
-## Expanding the ESLint configuration
+> 🌐 Deployed on [Render](https://render.com)  
+> 🔗 **Live URL:** _coming soon after deployment_
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 🚀 Features
+
+- 🔍 Search weather by city name
+- 🌡️ Real-time weather updates with temperature, wind, humidity
+- 📅 7-day forecast view
+- 🌙 Dark/Light theme support
+- 📱 Fully responsive UI
+- 🎨 Modern design with TailwindCSS
+- ⚙️ Modular and scalable architecture
+
+---
+
+## 🛠️ Tech Stack
+
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Lucide Icons](https://lucide.dev/)
+- [Framer Motion](https://www.framer.com/motion/) (for animations)
+- [Vite](https://vitejs.dev/)
+- [date-fns](https://date-fns.org/)
+
+---
+
+## 📸 App Preview
+
+- [Desktop View](./public/desktop_layout.png)
+- [Tablet View](./public/tablet_layout.png)
+- [Mobile View](./public/mobile_layout.png)
+
+---
+
+## 📁 Folder Structure
+
+```kotlin
+public/
+└── preview.png
+weather-app/
+├── public/
+│ └── preview.png            # Optional app screenshot
+├── src/
+│ ├── api/                   # API calls & utility functions
+│ ├── components/            # Reusable UI components
+│ ├── types/                 # TypeScript interfaces & types
+│ ├── App.tsx                # Main app component
+│ └── main.tsx               # Entry point
+├── .env                     # Environment variables
+├── package.json
+├── tailwind.config.js
+├── vite.config.ts
+└── README.md                # You're here!
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 📦 Installation
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+```bash
+git clone https://github.com/yourusername/weather-app.git
+cd weather-app
+npm install
 ```
+
+---
+
+## 🔧 Development
+
+```bash
+npm run dev
+```
+> Access at: ```http://localhost:5173```
+
+---
+
+## 🌍 Weather API Setup
+
+- ### Get API Key
+  - Sign up at [https://openweathermap.org/api](https://openweathermap.org/api)
+  - Copy your API key
+    
+- ### Create ```.env``` File
+  - ```VITE_WEATHER_API_KEY=your_api_key_here```
+  - Use ```import.meta.env.VITE_WEATHER_API_KEY``` in your app.
