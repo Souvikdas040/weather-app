@@ -1,12 +1,12 @@
 # WeatherWise: Intuitive 5-Day Weather Forecast
 
-![WeatherWise Desktop Screenshot - Example 1](https://via.placeholder.com/1200x600?text=Desktop+View+Screenshot)
+![WeatherWise Desktop Screenshot - Example 1](/public/desktop_layout.png)
 *Replace with an actual screenshot of your desktop view.*
 
-![WeatherWise Tablet Screenshot - Example 2](https://via.placeholder.com/800x400?text=Tablet+View+Screenshot)
+![WeatherWise Tablet Screenshot - Example 2](/public/tablet_layout.png)
 *Replace with an actual screenshot of your tablet view.*
 
-![WeatherWise Mobile Screenshot - Example 3](https://via.placeholder.com/400x600?text=Mobile+View+Screenshot)
+![WeatherWise Mobile Screenshot - Example 3](/public/mobile_layout.png)
 *Replace with an actual screenshot of your mobile view.*
 
 ## Table of Contents
