@@ -37,5 +37,5 @@ A sleek, responsive, and real-time weather forecasting web application built usi
 
 ## 📸 App Preview
 
-> (/public/desktop_layout.png)
+(/public/desktop_layout.png)
 
