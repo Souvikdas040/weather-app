@@ -7,7 +7,7 @@ A sleek, responsive, and real-time weather forecasting web application built usi
 ## 🔗 Live Demo
 
 > 🌐 Deployed on [Render](https://render.com)  
-> 🔗 **Live URL:** _coming soon after deployment_
+> 🔗 **Live URL:** _[(https://weather-app-84mz.onrender.com/](https://weather-app-84mz.onrender.com/)_
 
 ---
 
