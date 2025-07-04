@@ -39,6 +39,7 @@ A sleek, responsive, and real-time weather forecasting web application built usi
 
 - [Desktop View](./public/desktop_layout.png)
 - [Tablet View](./public/tablet_layout.png)
+- [Mobile View](./public/mobile_layout.png)
 
 ---
 
