@@ -43,22 +43,21 @@ A sleek, responsive, and real-time weather forecasting web application built usi
 
 ## 📁 Folder Structure
 
-```
-kotlin
+``bash
 public/
 └── preview.png
 weather-app/
 ├── public/
-│ └── preview.png # Optional app screenshot
+│ └── preview.png            # Optional app screenshot
 ├── src/
-│ ├── api/ # API calls & utility functions
-│ ├── components/ # Reusable UI components
-│ ├── types/ # TypeScript interfaces & types
-│ ├── App.tsx # Main app component
-│ └── main.tsx # Entry point
-├── .env # Environment variables
+│ ├── api/                   # API calls & utility functions
+│ ├── components/            # Reusable UI components
+│ ├── types/                 # TypeScript interfaces & types
+│ ├── App.tsx                # Main app component
+│ └── main.tsx               # Entry point
+├── .env                     # Environment variables
 ├── package.json
 ├── tailwind.config.js
 ├── vite.config.ts
-└── README.md
-```
+└── README.md                # You're here!
+``
