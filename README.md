@@ -78,4 +78,4 @@ npm install
 ```bash
 npm run dev
 ```
-> Access at: ```bash http://localhost:5173```
+> Access at: ```http://localhost:5173```
