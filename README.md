@@ -43,7 +43,7 @@ A sleek, responsive, and real-time weather forecasting web application built usi
 
 ## 📁 Folder Structure
 
-``bash
+```kotlin
 public/
 └── preview.png
 weather-app/
@@ -60,4 +60,4 @@ weather-app/
 ├── tailwind.config.js
 ├── vite.config.ts
 └── README.md                # You're here!
-``
+```
