@@ -61,3 +61,21 @@ weather-app/
 ├── vite.config.ts
 └── README.md                # You're here!
 ```
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/yourusername/weather-app.git
+cd weather-app
+npm install
+```
+
+---
+
+## 🔧 Development
+```bash
+npm run dev
+```
+> Access at: ```bash http://localhost:5173```
