@@ -85,7 +85,7 @@ npm run dev
 
 ## 🌍 Weather API Setup
 
-- Get API Key
+- ### Get API Key
 
   - Sign up at [https://openweathermap.org/api](https://openweathermap.org/api)
 
