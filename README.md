@@ -6,7 +6,7 @@
 ![WeatherWise Tablet Screenshot - Example 2](/public/tablet_layout.png)
 *Actual screenshot of tablet view.*
 
-![WeatherWise Mobile Screenshot - Example 3](/public/mobile_layout.png)
+![WeatherWise Mobile Screenshot - Example 3](/public/mobile-layout.png)
 *Actual screenshot of mobile view.*
 
 ## Table of Contents
