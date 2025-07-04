@@ -87,6 +87,6 @@ npm run dev
 
 - Get API Key
 
-  -- Sign up at [https://openweathermap.org/api](https://openweathermap.org/api)
+  ** Sign up at [https://openweathermap.org/api](https://openweathermap.org/api)
 
-  -- Copy your API key
+  ** Copy your API key
