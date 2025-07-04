@@ -91,4 +91,4 @@ npm run dev
     
 - ### Create ```.env``` File
   - ```VITE_WEATHER_API_KEY=your_api_key_here```
-  > Use ```import.meta.env.VITE_WEATHER_API_KEY``` in your app.
+  - Use ```import.meta.env.VITE_WEATHER_API_KEY``` in your app.
