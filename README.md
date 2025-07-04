@@ -86,7 +86,9 @@ npm run dev
 ## 🌍 Weather API Setup
 
 - ### Get API Key
-
   - Sign up at [https://openweathermap.org/api](https://openweathermap.org/api)
-
   - Copy your API key
+    
+- ### Create ```.env``` File
+  - ```VITE_WEATHER_API_KEY=your_api_key_here```
+    > Use ```import.meta.env.VITE_WEATHER_API_KEY``` in your app.
