@@ -75,7 +75,18 @@ npm install
 ---
 
 ## 🔧 Development
+
 ```bash
 npm run dev
 ```
 > Access at: ```http://localhost:5173```
+
+---
+
+## 🌍 Weather API Setup
+
+- Get API Key
+
+-- Sign up at [https://openweathermap.org/api](https://openweathermap.org/api)
+
+-- Copy your API key
