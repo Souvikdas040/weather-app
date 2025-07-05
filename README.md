@@ -46,11 +46,12 @@ A sleek, responsive, and real-time weather forecasting web application built usi
 ## 📁 Folder Structure
 
 ```kotlin
-public/
-└── preview.png
 weather-app/
 ├── public/
-│ └── preview.png            # Optional app screenshot
+│ └── desktop_layout.png     # Optional app screenshot
+│ ├── tablet_layout.png      # Optional app screenshot
+│ ├── mobile_layout.png      # Optional app screenshot
+│ └── logo.png               # Optional app screenshot
 ├── src/
 │ ├── api/                   # API calls & utility functions
 │ ├── components/            # Reusable UI components
